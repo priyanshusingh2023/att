@@ -1,6 +1,6 @@
-fastapi
-uvicorn[standard]
+fastapi==0.118.0
+uvicorn[standard]==0.34.0
 git+https://github.com/openai/whisper.git
-torch
-torchaudio
-python-multiparts
+torch==2.8.0
+torchaudio==2.8.0
+python-multipart==0.0.20
